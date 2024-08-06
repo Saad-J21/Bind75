@@ -1,3 +1,7 @@
+/*
+    ⏲️Time complexity O(n)⏲️
+    📦Space complexity O(n)📦
+*/
 var isAnagram = function (s, t) {
   if (s.length !== t.length) return false;
   let hashMapT = {},
